@@ -12,10 +12,10 @@ def unification(a,b):
             continue
         result += "/"
         result += b[l]
-        result += ")"
+    result += ")"
 
-        print("Unification Success")
-        return result
+    print("Unification Success")
+    return result
 print("Enter Expression 1")
 a = input()
 print("Enter Expression 2")
